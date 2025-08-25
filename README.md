@@ -24,7 +24,7 @@ A comprehensive Model Context Protocol (MCP) server for Android Debug Bridge (AD
 
 ```bash
 # Clone the repository
-git clone http://git.dev.sh.ctripcorp.com/octopus/adb-mcp.git
+git clone https://github.com/zhizhuodemao/adb-mcp
 cd adb-mcp
 
 # Install dependencies
