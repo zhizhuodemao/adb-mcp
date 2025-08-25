@@ -1,0 +1,30 @@
+[project]
+name = "adb-mcp"
+version = "1.0.0"
+description = "Android Debug Bridge (ADB) MCP Server - Complete Android device management through Model Context Protocol"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==1.13.0",
+]
+authors = [
+    {name = "ADB MCP Team"}
+]
+keywords = ["adb", "android", "mcp", "device-management"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Systems Administration",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+adb-mcp-server = "adb_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
